@@ -1,0 +1,129 @@
+/* * {
+    padding: 0;
+    margin: 0;
+  } */
+
+/* .login-page {
+  height: 100vh;
+  background: linear-gradient(to right, #ecbc76 0%, #ecbc76 50%, #f9f9f9 50%, #f9f9f9 100%);
+  justify-content: center;
+  align-items: center;
+} */
+/* .Toastify__progress-bar--success {
+  display: none !important;
+} */
+.login-page {
+  height: 87vh;
+  background: #f9fafc;
+  justify-content: center;
+  align-items: center;
+}
+.login-right-img {
+  margin-top: 77px;
+  margin-left: 0px;
+}
+.login-left-img {
+  margin-left: -146px;
+  margin-top: -4px;
+  width: max-content;
+}
+.login-image {
+  margin-top: 200px;
+  /* margin-left: 40px; */
+  width: 89px;
+  height: 31px;
+}
+.login-form__btn {
+  background: #f39400e8;
+  color: #212529;
+  padding: 13px 40px;
+  border-color: #f39400e8 !important;
+  font-size: 16px;
+}
+.login-label {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.login-form__btn:hover {
+  background: #f39400e8 !important;
+  border-color: #f39400e8 !important;
+  color: #000;
+}
+.login-form__btn.submit {
+  padding: 15px 40px;
+  background: #f39400e8;
+  font-weight: 700;
+  width: 97.5% !important;
+}
+.fp-text {
+  margin-right: 0px !important;
+}
+.login-btn {
+  /* width: 357px !important; */
+  margin-left: 1px !important;
+}
+.login-card {
+  width: 410px;
+  margin-left: 108px;
+  height: 399px;
+}
+.eye-icon {
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  right: 69px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  .login-page {
+    height: 80vh;
+  }
+  .login-left-img {
+    margin-top: 17px;
+  }
+}
+.loglogo {
+  margin-top: 40px;
+  margin-left: 31px;
+}
+
+iframe#webpack-dev-server-client-overlay {
+  display: none !important;
+}
+
+/* New Login Page */
+.login-image-side {
+  background-color: #f7edef;
+  background-image: url('../../../assets/images/login/login-bg-img.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Set opacity */
+  background-blend-mode: hard-light;
+}
+
+.login-logo {
+  width: 145px;
+  height: 116px;
+  margin-left: -8px;
+}
+.side-img {
+  width: 320px;
+  height: 294px;
+}
+.divider:after,
+.divider:before {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: 100%;
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
